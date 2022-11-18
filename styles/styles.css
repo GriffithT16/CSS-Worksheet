@@ -1,0 +1,59 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+    text-align: justify;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: Verdana, sans-serif;
+    background-color: darkkhaki;
+    
+    
+
+}
+
+/* Create your own classes below! */
+
+.round-block {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  .round-block-white {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+    background-color: floralwhite;
+  }
+
+  .round-block-linen {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+    background-color: blanchedalmond;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.text_block_rounded {
+    display: flexbox;
+}
