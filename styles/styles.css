@@ -54,6 +54,17 @@ body{
     align-items: center;
     justify-content: space-around;
   }
+  .flex-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+  }
 .text_block_rounded {
     display: flexbox;
 }
